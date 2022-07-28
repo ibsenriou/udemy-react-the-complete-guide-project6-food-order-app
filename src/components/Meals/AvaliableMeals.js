@@ -32,7 +32,6 @@ const AvaliableMeals = () => {
       }
       setMeals(loadedMeals);
       setIsLoading(false);
-      console.log(loadedMeals);
     };
 
     fecthMeals().catch((error) => {
